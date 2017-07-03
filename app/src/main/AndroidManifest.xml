@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bybi" >
+    package="com.example.bybi">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -8,10 +9,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +26,9 @@
 
         <activity
             android:name=".KakaoSignupActivity"
-            android:label="@string/title_activity_kakao_signup"></activity>
+            android:label="@string/title_activity_kakao_signup" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".SignupActivity"></activity>
     </application>
 
 </manifest>
